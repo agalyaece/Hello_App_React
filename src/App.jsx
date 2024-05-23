@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <Header onCreatePost={handleShowModal} />
-      <main className="flex flex-col min-h-screen">
+      <main className="h-lvh">
         <ContentsList
           isShowing={modalIsVisible}
           onStopPosting={handleHideModal}
